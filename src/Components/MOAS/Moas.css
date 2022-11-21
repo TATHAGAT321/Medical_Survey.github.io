@@ -1,0 +1,82 @@
+
+table {
+    width: 80%;
+    border: 1px solid #000;
+    margin: 2% 10% 2% 10%;
+    border-collapse: collapse;
+  }
+  
+  th, td{
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+    font-family:'Trebuchet MS';
+  }
+
+  caption {
+    padding: 0.3em;
+    color: #fff;
+    background: #000;
+    font-family:'Trebuchet MS';
+  }
+  
+  .hello>th{
+    color: #fff;
+    background: #000;
+    text-align: center;
+
+  }
+  .type2{
+    text-align: left;
+  }
+  .type1{
+    width: 0%;
+    text-align: center;
+  }
+  .table2 > th > td{
+    text-align: center;
+  }
+  .input2, .input1, .input3, .input4 {
+   text-align : left;
+   font-family:'Trebuchet MS';
+  }
+  .input3>p{
+   padding : 10px 0 10px 20px;
+  }
+  .input4>.olist{
+    padding : 10px 0 10px 40px;
+  }
+ .input2{
+   width : 60%;
+ }
+ .input2>.input2r{
+    width:30%;
+
+ }
+ .input2>.input2d{
+  margin-left: 90px;  
+  width:30%;
+  
+ }
+ .next{
+  background-color: #fff;
+  color: black;
+  padding: 10px 30px;
+  font-family:'Trebuchet MS';
+  font-weight: 500;
+  font-size: 30px;
+  border-radius: 5px;
+  border-color: black;
+}
+.next:hover{
+  background-color: rgba(78, 245, 187, 0.655);
+  color: white; 
+  border-color: rgba(8, 175, 117, 0.655);
+}
+.wrapper{
+  margin: 2% 10% 2% 10%;
+}

@@ -1,0 +1,50 @@
+table {
+    width: 80%;
+    border: 1px solid #000;
+    margin: 2% 10% 2% 10%;
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+  }
+  
+  th, td {
+    width: 20%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+    font-family:'Trebuchet MS';
+  }
+
+  
+  caption {
+    color: #fff;
+    background: #000;
+    font-family:'Trebuchet MS';
+  }
+  
+  th {
+    background: #eee;
+  }
+
+  .next{
+    background-color: #fff;
+    color: black;
+    padding: 10px 30px;
+    font-family:'Trebuchet MS';
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 5px;
+    border-color: black;
+}
+.next:hover{
+    background-color: rgba(78, 245, 187, 0.655);
+    color: white; 
+    border-color: rgba(8, 175, 117, 0.655);
+}
+.c1> input{
+  font-size: 15px;
+}
